@@ -1,0 +1,11 @@
+site_name: APEX E2E TESTS 3
+pages:
+    - "Home": index.md
+theme: readthedocs
+theme_dir: theme
+markdown_extensions:
+    - admonition
+    - def_list
+    - grid_tables
+extra:
+    portalHostName: "https://dev.apex.corp.yahoo.com"

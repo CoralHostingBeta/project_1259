@@ -1,0 +1,20 @@
+<header class="md-header-custom" >
+  <div class="nav-header menu-list" >
+      <ul class="pure-menu-list menu-list">
+          <li class="pure-menu-item header-list title-container" >
+              <a href="{{ config.extra.portalHostName }}/dashboard/list" class="nav-bar nav-title">APEX</a>
+          </li>
+          <li class="pure-menu-item header-list create-container">
+              <a href="{{ config.extra.portalHostName }}/dashboard/create" class="nav-bar nav-create">On-board</a>
+          </li>
+          <li class="pure-menu-item header-list about-container">
+              <a href="{{ config.extra.portalHostName }}/dashboard/contact" class="nav-bar nav-about">About</a>
+          </li>
+          <li class="pure-menu-item search-container" >
+               <div>
+                   <input type="search" class="searchBox" placeholder="Search" onKeyPress="handleSearchKeyPress(event, '{{ config.extra.portalHostName }}')">
+              </div>
+          </li>
+      </ul>
+  </div>
+</header>

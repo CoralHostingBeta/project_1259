@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Project XXX docs\n\n\nThis is auto generated homepage", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-project-xxx-docs", 
+            "text": "This is auto generated homepage", 
+            "title": "Welcome to Project XXX docs"
+        }
+    ]
+}
